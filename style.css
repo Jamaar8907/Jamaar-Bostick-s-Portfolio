@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color:white;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:red;
+    color: #ffffff;
+}
+
+.header h1 {
+    
+    display: inline-block;
+    font-size: 50px;
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.textsize{
+    font-size: 18px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header_img {
+    height: 300px;
+    width: 100%;
+    background-image: url(./images/portfoliopic.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.column h3{
+    font-size: 40px;
+    position: relative;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+
+.w3-cell-row {
+    display: flex;
+    width: 100%;
+}
+
+#work_text,
+#aboutme_text,
+#resume_text,
+#contactme_text {
+    flex: 20%;
+    border-right: 2px solid black;
+}
+
+.profilepic {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+#project_1 {
+    position: relative;
+    width: 100%;
+}
+
+.img1_text {
+    position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px; 
+}
+
+#project_2 {
+    position: relative;
+    display: flex;
+    width: 90%;
+}
+
+.img2_text {
+      position: absolute;
+      bottom: 30px;
+      left: 40px;
+      background-color: black;
+      color: white;
+      padding-left: 20px;
+      padding-right: 20px; 
+}
+
+.img3_text {
+    position: absolute;
+    bottom: 30px;
+    right: 330px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px; 
+}
+
+#project_3 {
+    position: relative;
+    display: flex;
+    width: 90%;
+}
+
+.img4_text {
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px; 
+}
+
+.img5_text { 
+    position: absolute;
+    bottom: 30px;
+    right: 270px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px; 
+}
+
+.pics {
+    flex:70%;
+    margin-left: 70px;
+}
+
+.image1,
+.image2,
+.image3,
+.image4,
+.image5 {
+    height: 300px;
+    width: 300px;
+    border-radius: 50px;
+}
+
+.image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 90%;
+  }
+  .image2 {
+    flex: 50%;
+    margin: 20px;
+  }
+  .image3 {
+   flex: 50%;
+   margin: 20px;
+  }
+  .image4 {
+   flex: 50%;
+   margin: 20px;
+  }
+  .image5 {
+    flex: 50%;
+    margin: 20px;
+  }
+
+  #loading {
+    height: 200px;
+    width: 77%;
+    border-radius: 50px;
+  }
+
+  #paragraph {
+    height: 200px;
+    width: 77%;
+  }
+
+ #contact-info {
+    width: 77%;
+}
+
+.contactlist li{
+    display: inline;
+}
+
+.footer {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color:red;
+}
